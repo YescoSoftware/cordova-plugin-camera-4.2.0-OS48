@@ -152,7 +152,7 @@ cameraExport.getPicture = function (successCallback, errorCallback, options) {
 
 
     let args = [{quality, targetWidth, targetHeight, encodingType, allowEdit, correctOrientation, 
-        saveToPhotoAlbum, cameraDirection, destinationType, sourceType, mediaType}];
+        saveToPhotoAlbum, cameraDirection, destinationType, sourceType, mediaType, flashMode}];
 
     exec(successCallback, errorCallback, 'Camera', 'takePicture', args);
     // XXX: commented out
@@ -263,10 +263,11 @@ cameraExport.takePicture = function (successCallback, errorCallback, options) {
     let cameraDirection = getValue(options.cameraDirection, Camera.Direction.BACK);
     let includeMetadata = !!options.includeMetadata;
     let latestVersion = !!options.latestVersion;
+    let flashMode = getValue(options.flashMode, Camera.FlashMode.AUTO);
 
     let args = [{quality, targetWidth, targetHeight, encodingType, allowEdit, correctOrientation, 
         saveToPhotoAlbum, cameraDirection, destinationType, sourceType, mediaType, includeMetadata,
-        latestVersion}];
+        latestVersion, flashMode}];
 
     exec(successCallback, errorCallback, 'Camera', 'takePicture', args);
     // XXX: commented out
