@@ -1,0 +1,17 @@
+{
+    "moduleName": "CameraPlugin",
+    "applicationNames": [
+        "CameraPlugin",
+        "CameraSampleApp"
+    ],
+    "testPipelineArgs": {
+        "plugin": "camera",
+        "threads": "3"
+    },
+    "sauceLabsInfo": {
+        "CameraSampleApp": {
+            "androidAPIKey": "E5423081CBBF4ACF888D6E1E78C8EB96",
+            "iosAPIKey": "C1B55FED8D18456789F2A34F5F5449A0"
+        }
+    }
+}

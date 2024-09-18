@@ -1,0 +1,138 @@
+name: "Camera Plugin ODC Pipeline"
+
+pr: none
+trigger:
+  tags:
+    include:
+      - "*"
+
+pool:
+  vmImage: "ubuntu-20.04"
+
+resources:
+  repositories:
+    - repository: MobilePluginsE2ETests
+      type: github
+      ref: main
+      name: OutSystems/MobilePluginsE2ETests
+      endpoint: OutSystems
+    - repository: MobilePluginsODCPipeline
+      type: github
+      ref: main
+      name: OutSystems/MobilePluginsODCPipeline
+      endpoint: OutSystems
+
+variables:
+  - name: StampsInformationFileName
+    value: "eng-osrd-mobile-neo1.StampsInformation.json"
+  - name: PLUGIN_APP_KEY
+    value: "7acb2c1d-51bf-4ef4-8cb8-a05573501b6a" # ODC Camera Plugin
+  - name: SAMPLEAPP_APP_KEY
+    # value: "15d54f75-779d-4cae-948f-1bc119a7e813" # ODC CloneOfCameraSampleApp
+    value: "3c0451ef-0d99-4e09-adb5-718e009deb9d" # ODC CameraSampleApp
+  - name: MABS_VERSION
+    value: "9.0"
+  - group: MobileConfigCredentials
+  - group: "Saucelabs User Variables"
+  - group: "Camera Plugin Variables"
+  - group: "ModelAPI_InternalCode"
+
+stages:
+  - stage: Camera_E2E_Tests_Android
+    jobs:
+
+      - job: update_wrapper
+        displayName: "Update the plugin wrapper"
+        steps:
+          - checkout: self
+          - checkout: MobilePluginsODCPipeline
+          - template: build/ci/update-wrapper.yaml@MobilePluginsODCPipeline
+            parameters:
+              secretFileName: $(StampsInformationFileName)
+              scriptToRun: UpdateExtensibilityOnPluginWrapper
+              PLUGIN_APP_KEY: $(PLUGIN_APP_KEY)
+              PLUGIN_UPDATE_URL: "https://github.com/OutSystems/cordova-plugin-camera#$(Build.SourceBranchName)" # TODO: try to use Build variable for the repo url
+              PLUGIN_UPDATE_VERSION: "$(Build.SourceBranchName)"
+              workingDirectory: $(System.DefaultWorkingDirectory)/MobilePluginsODCPipeline
+
+      - job: update_sampleapp
+        dependsOn: update_wrapper
+        displayName: "Refresh dependencies on the Sample App, deploy to QA and build packages"
+        steps:
+          - checkout: self
+          - checkout: MobilePluginsODCPipeline
+          - checkout: MobilePluginsE2ETests
+
+          - template: build/ci/refresh-sampleapp.yaml@MobilePluginsODCPipeline
+            parameters:
+              workingDirectory: $(System.DefaultWorkingDirectory)/MobilePluginsODCPipeline
+              secretFileName: $(StampsInformationFileName)
+              scriptToRun: RefreshSampleAppDependencies
+              SAMPLEAPP_APP_KEY: $(SAMPLEAPP_APP_KEY)
+              ANDROID_APP_IDENTIFIER: "app.outsystems.engosrdmobileneo1test.CameraSampleApp" # $(ANDROID_APP_ID)
+              IOS_APP_IDENTIFIER: "com.outsystems.rd.NeoCameraSampleApp" # $(IOS_APP_ID)
+              MABS_VERSION: $(MABS_VERSION)
+
+          - template: build/ci/upload-packages-saucelabs.yaml@MobilePluginsODCPipeline
+            parameters:
+              SAMPLEAPP_APP_KEY: $(SAMPLEAPP_APP_KEY)
+              workingDirectory: $(System.DefaultWorkingDirectory)/MobilePluginsODCPipeline
+
+          - script: |
+              echo "##vso[task.setvariable variable=androidSLID;isOutput=true]$(cat $(System.DefaultWorkingDirectory)/MobilePluginsODCPipeline/src/OutSystems.Platform.Milestone.Tests/bin/Debug/$(SAMPLEAPP_APP_KEY)-android-slid.txt)"
+              echo "##vso[task.setvariable variable=iosSLID;isOutput=true]$(cat $(System.DefaultWorkingDirectory)/MobilePluginsODCPipeline/src/OutSystems.Platform.Milestone.Tests/bin/Debug/$(SAMPLEAPP_APP_KEY)-ios-slid.txt)"
+            name: set_slid_vars
+            displayName: "Set SauceLabs Storage IDs variables"
+
+      - job: android_e2e_tests_P0s
+        displayName: "Android E2E P0 tests"
+        dependsOn: update_sampleapp
+        continueOnError: false
+        variables:
+          - name: storageID
+            value: $[ dependencies.update_sampleapp.outputs['set_slid_vars.androidSLID'] ]        
+        steps:
+          - checkout: self
+          - checkout: MobilePluginsE2ETests
+          - template: build/ci/templates/run-tests.yaml@MobilePluginsE2ETests
+            parameters:
+              DATACENTER: eu
+              DEVICE: "samsung or google"
+              DEVICE_PLATFORM: Android
+              DEVICE_VERSION: 13
+              PLATFORM_TYPE: Mobile
+              PLUGIN: Camera
+              TAGS: '@p0'
+              RETRY: 1
+              TEST_TYPE: native
+              THREADS: 3
+              #STORAGE_ID: $(storageID)
+              PACKAGE: app.outsystems.engosrdmobileneo1test.CameraSampleApp
+              MABS: 9
+              WORKING_DIR: $(System.DefaultWorkingDirectory)/MobilePluginsE2ETests
+              
+      - job: iOS_e2e_tests_P0s
+        displayName: "iOS E2E P0 tests"
+        dependsOn: update_sampleapp
+        continueOnError: false
+        variables:
+          - name: storageID
+            value: $[ dependencies.update_sampleapp.outputs['set_slid_vars.iosSLID'] ]
+        steps:
+          - checkout: self
+          - checkout: MobilePluginsE2ETests
+          - template: build/ci/templates/run-tests.yaml@MobilePluginsE2ETests
+            parameters:
+              DATACENTER: eu
+              DEVICE_PLATFORM: iOS
+              DEVICE_VERSION: 16
+              PLATFORM_TYPE: Mobile
+              PLUGIN: Camera
+              TAGS: '@p0'
+              RETRY: 1
+              TEST_TYPE: native
+              THREADS: 3
+              STORAGE_ID: $(storageID)
+              WORKING_DIR: $(System.DefaultWorkingDirectory)/MobilePluginsE2ETests
+
+

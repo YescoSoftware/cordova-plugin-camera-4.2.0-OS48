@@ -1,0 +1,4055 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "OSCameraLib"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "OSCameraLib"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "OSCameraLib"
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "OSCameraLib"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "OSCameraLib"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "OSCAMRVideoOptions",
+        "printedName": "OSCAMRVideoOptions",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(saveToPhotoAlbum:returnMetadata:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OSCAMRVideoOptions",
+                "printedName": "OSCameraLib.OSCAMRVideoOptions",
+                "usr": "s:11OSCameraLib18OSCAMRVideoOptionsC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11OSCameraLib18OSCAMRVideoOptionsC16saveToPhotoAlbum14returnMetadataACSb_Sbtcfc",
+            "mangledName": "$s11OSCameraLib18OSCAMRVideoOptionsC16saveToPhotoAlbum14returnMetadataACSb_Sbtcfc",
+            "moduleName": "OSCameraLib",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:11OSCameraLib18OSCAMRVideoOptionsC",
+        "mangledName": "$s11OSCameraLib18OSCAMRVideoOptionsC",
+        "moduleName": "OSCameraLib",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "superclassUsr": "s:11OSCameraLib18OSCAMRMediaOptionsC",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "OSCameraLib.OSCAMRMediaOptions"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Photos",
+        "printedName": "Photos",
+        "declKind": "Import",
+        "moduleName": "OSCameraLib"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "OSCameraLib"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "OSCameraLib"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "OSCameraLib"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "OSCameraLib"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "OSCameraLib"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "OSCAMRMediaOptions",
+        "printedName": "OSCAMRMediaOptions",
+        "declKind": "Class",
+        "usr": "s:11OSCameraLib18OSCAMRMediaOptionsC",
+        "mangledName": "$s11OSCameraLib18OSCAMRMediaOptionsC",
+        "moduleName": "OSCameraLib",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "OSCAMRDirection",
+        "printedName": "OSCAMRDirection",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "back",
+            "printedName": "back",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(OSCameraLib.OSCAMRDirection.Type) -> OSCameraLib.OSCAMRDirection",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OSCAMRDirection",
+                    "printedName": "OSCameraLib.OSCAMRDirection",
+                    "usr": "s:11OSCameraLib15OSCAMRDirectionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "OSCameraLib.OSCAMRDirection.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OSCAMRDirection",
+                        "printedName": "OSCameraLib.OSCAMRDirection",
+                        "usr": "s:11OSCameraLib15OSCAMRDirectionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11OSCameraLib15OSCAMRDirectionO4backyA2CmF",
+            "mangledName": "$s11OSCameraLib15OSCAMRDirectionO4backyA2CmF",
+            "moduleName": "OSCameraLib"
+          },
+          {
+            "kind": "Var",
+            "name": "front",
+            "printedName": "front",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(OSCameraLib.OSCAMRDirection.Type) -> OSCameraLib.OSCAMRDirection",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OSCAMRDirection",
+                    "printedName": "OSCameraLib.OSCAMRDirection",
+                    "usr": "s:11OSCameraLib15OSCAMRDirectionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "OSCameraLib.OSCAMRDirection.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OSCAMRDirection",
+                        "printedName": "OSCameraLib.OSCAMRDirection",
+                        "usr": "s:11OSCameraLib15OSCAMRDirectionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11OSCameraLib15OSCAMRDirectionO5frontyA2CmF",
+            "mangledName": "$s11OSCameraLib15OSCAMRDirectionO5frontyA2CmF",
+            "moduleName": "OSCameraLib"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "OSCameraLib.OSCAMRDirection?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OSCAMRDirection",
+                    "printedName": "OSCameraLib.OSCAMRDirection",
+                    "usr": "s:11OSCameraLib15OSCAMRDirectionO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11OSCameraLib15OSCAMRDirectionO8rawValueACSgSi_tcfc",
+            "mangledName": "$s11OSCameraLib15OSCAMRDirectionO8rawValueACSgSi_tcfc",
+            "moduleName": "OSCameraLib",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11OSCameraLib15OSCAMRDirectionO8rawValueSivp",
+            "mangledName": "$s11OSCameraLib15OSCAMRDirectionO8rawValueSivp",
+            "moduleName": "OSCameraLib",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11OSCameraLib15OSCAMRDirectionO8rawValueSivg",
+                "mangledName": "$s11OSCameraLib15OSCAMRDirectionO8rawValueSivg",
+                "moduleName": "OSCameraLib",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:11OSCameraLib15OSCAMRDirectionO",
+        "mangledName": "$s11OSCameraLib15OSCAMRDirectionO",
+        "moduleName": "OSCameraLib",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "OSCameraLib"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "OSCameraLib"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "OSCameraLib"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "OSCameraLib"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreGraphics",
+        "printedName": "CoreGraphics",
+        "declKind": "Import",
+        "moduleName": "OSCameraLib"
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "OSCameraLib"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "OSCameraLib"
+      },
+      {
+        "kind": "Import",
+        "name": "Photos",
+        "printedName": "Photos",
+        "declKind": "Import",
+        "moduleName": "OSCameraLib"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OSCameraLib"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "OSCameraLib"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "OSCameraLib"
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "OSCameraLib"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "OSCameraLib"
+      },
+      {
+        "kind": "Import",
+        "name": "MobileCoreServices",
+        "printedName": "MobileCoreServices",
+        "declKind": "Import",
+        "moduleName": "OSCameraLib"
+      },
+      {
+        "kind": "Import",
+        "name": "Photos",
+        "printedName": "Photos",
+        "declKind": "Import",
+        "moduleName": "OSCameraLib"
+      },
+      {
+        "kind": "Import",
+        "name": "UniformTypeIdentifiers",
+        "printedName": "UniformTypeIdentifiers",
+        "declKind": "Import",
+        "moduleName": "OSCameraLib"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "OSCameraLib"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "OSCAMREditOptions",
+        "printedName": "OSCAMREditOptions",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(saveToPhotoAlbum:returnMetadata:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OSCAMREditOptions",
+                "printedName": "OSCameraLib.OSCAMREditOptions",
+                "usr": "s:11OSCameraLib17OSCAMREditOptionsC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11OSCameraLib17OSCAMREditOptionsC16saveToPhotoAlbum14returnMetadataACSb_Sbtcfc",
+            "mangledName": "$s11OSCameraLib17OSCAMREditOptionsC16saveToPhotoAlbum14returnMetadataACSb_Sbtcfc",
+            "moduleName": "OSCameraLib",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:11OSCameraLib17OSCAMREditOptionsC",
+        "mangledName": "$s11OSCameraLib17OSCAMREditOptionsC",
+        "moduleName": "OSCameraLib",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OSCameraLib"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OSCameraLib"
+      },
+      {
+        "kind": "Import",
+        "name": "Photos",
+        "printedName": "Photos",
+        "declKind": "Import",
+        "moduleName": "OSCameraLib"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "OSCameraLib"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OSCameraLib"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OSCameraLib"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "OSCAMRMediaType",
+        "printedName": "OSCAMRMediaType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11OSCameraLib15OSCAMRMediaTypeV8rawValueSivp",
+            "mangledName": "$s11OSCameraLib15OSCAMRMediaTypeV8rawValueSivp",
+            "moduleName": "OSCameraLib",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11OSCameraLib15OSCAMRMediaTypeV8rawValueSivg",
+                "mangledName": "$s11OSCameraLib15OSCAMRMediaTypeV8rawValueSivg",
+                "moduleName": "OSCameraLib",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11OSCameraLib15OSCAMRMediaTypeV8rawValueSivs",
+                "mangledName": "$s11OSCameraLib15OSCAMRMediaTypeV8rawValueSivs",
+                "moduleName": "OSCameraLib",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11OSCameraLib15OSCAMRMediaTypeV8rawValueSivM",
+                "mangledName": "$s11OSCameraLib15OSCAMRMediaTypeV8rawValueSivM",
+                "moduleName": "OSCameraLib",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OSCAMRMediaType",
+                "printedName": "OSCameraLib.OSCAMRMediaType",
+                "usr": "s:11OSCameraLib15OSCAMRMediaTypeV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11OSCameraLib15OSCAMRMediaTypeV8rawValueACSi_tcfc",
+            "mangledName": "$s11OSCameraLib15OSCAMRMediaTypeV8rawValueACSi_tcfc",
+            "moduleName": "OSCameraLib",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "picture",
+            "printedName": "picture",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OSCAMRMediaType",
+                "printedName": "OSCameraLib.OSCAMRMediaType",
+                "usr": "s:11OSCameraLib15OSCAMRMediaTypeV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11OSCameraLib15OSCAMRMediaTypeV7pictureACvpZ",
+            "mangledName": "$s11OSCameraLib15OSCAMRMediaTypeV7pictureACvpZ",
+            "moduleName": "OSCameraLib",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OSCAMRMediaType",
+                    "printedName": "OSCameraLib.OSCAMRMediaType",
+                    "usr": "s:11OSCameraLib15OSCAMRMediaTypeV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11OSCameraLib15OSCAMRMediaTypeV7pictureACvgZ",
+                "mangledName": "$s11OSCameraLib15OSCAMRMediaTypeV7pictureACvgZ",
+                "moduleName": "OSCameraLib",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "video",
+            "printedName": "video",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OSCAMRMediaType",
+                "printedName": "OSCameraLib.OSCAMRMediaType",
+                "usr": "s:11OSCameraLib15OSCAMRMediaTypeV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11OSCameraLib15OSCAMRMediaTypeV5videoACvpZ",
+            "mangledName": "$s11OSCameraLib15OSCAMRMediaTypeV5videoACvpZ",
+            "moduleName": "OSCameraLib",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OSCAMRMediaType",
+                    "printedName": "OSCameraLib.OSCAMRMediaType",
+                    "usr": "s:11OSCameraLib15OSCAMRMediaTypeV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11OSCameraLib15OSCAMRMediaTypeV5videoACvgZ",
+                "mangledName": "$s11OSCameraLib15OSCAMRMediaTypeV5videoACvgZ",
+                "moduleName": "OSCameraLib",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "both",
+            "printedName": "both",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OSCAMRMediaType",
+                "printedName": "OSCameraLib.OSCAMRMediaType",
+                "usr": "s:11OSCameraLib15OSCAMRMediaTypeV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11OSCameraLib15OSCAMRMediaTypeV4bothACvpZ",
+            "mangledName": "$s11OSCameraLib15OSCAMRMediaTypeV4bothACvpZ",
+            "moduleName": "OSCameraLib",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OSCAMRMediaType",
+                    "printedName": "OSCameraLib.OSCAMRMediaType",
+                    "usr": "s:11OSCameraLib15OSCAMRMediaTypeV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11OSCameraLib15OSCAMRMediaTypeV4bothACvgZ",
+                "mangledName": "$s11OSCameraLib15OSCAMRMediaTypeV4bothACvgZ",
+                "moduleName": "OSCameraLib",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OSCAMRMediaType",
+                "printedName": "OSCameraLib.OSCAMRMediaType",
+                "usr": "s:11OSCameraLib15OSCAMRMediaTypeV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11OSCameraLib15OSCAMRMediaTypeV4fromACSi_tKcfc",
+            "mangledName": "$s11OSCameraLib15OSCAMRMediaTypeV4fromACSi_tKcfc",
+            "moduleName": "OSCameraLib",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "description",
+            "printedName": "description",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11OSCameraLib15OSCAMRMediaTypeV11descriptionSSvp",
+            "mangledName": "$s11OSCameraLib15OSCAMRMediaTypeV11descriptionSSvp",
+            "moduleName": "OSCameraLib",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11OSCameraLib15OSCAMRMediaTypeV11descriptionSSvg",
+                "mangledName": "$s11OSCameraLib15OSCAMRMediaTypeV11descriptionSSvg",
+                "moduleName": "OSCameraLib",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:11OSCameraLib15OSCAMRMediaTypeV",
+        "mangledName": "$s11OSCameraLib15OSCAMRMediaTypeV",
+        "moduleName": "OSCameraLib",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "OptionSet",
+            "printedName": "OptionSet",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OSCAMRMediaType",
+                    "printedName": "OSCameraLib.OSCAMRMediaType",
+                    "usr": "s:11OSCameraLib15OSCAMRMediaTypeV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s9OptionSetP",
+            "mangledName": "$ss9OptionSetP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SetAlgebra",
+            "printedName": "SetAlgebra",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OSCAMRMediaType",
+                    "printedName": "OSCameraLib.OSCAMRMediaType",
+                    "usr": "s:11OSCameraLib15OSCAMRMediaTypeV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s10SetAlgebraP",
+            "mangledName": "$ss10SetAlgebraP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByArrayLiteral",
+            "printedName": "ExpressibleByArrayLiteral",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ArrayLiteralElement",
+                "printedName": "ArrayLiteralElement",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OSCAMRMediaType",
+                    "printedName": "OSCameraLib.OSCAMRMediaType",
+                    "usr": "s:11OSCameraLib15OSCAMRMediaTypeV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s25ExpressibleByArrayLiteralP",
+            "mangledName": "$ss25ExpressibleByArrayLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PhotosUI",
+        "printedName": "PhotosUI",
+        "declKind": "Import",
+        "moduleName": "OSCameraLib"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "OSCameraLib"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "OSCameraLib"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "OSCameraLib"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "OSCAMRFactory",
+        "printedName": "OSCAMRFactory",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "createCameraWrapper",
+            "printedName": "createCameraWrapper(withDelegate:and:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OSCAMRActionDelegate",
+                "printedName": "OSCameraLib.OSCAMRActionDelegate",
+                "usr": "s:11OSCameraLib20OSCAMRActionDelegateP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "OSCAMRCallbackDelegate",
+                "printedName": "OSCameraLib.OSCAMRCallbackDelegate",
+                "usr": "s:11OSCameraLib22OSCAMRCallbackDelegateP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11OSCameraLib13OSCAMRFactoryV19createCameraWrapper12withDelegate3andAA012OSCAMRActionH0_pAA014OSCAMRCallbackH0_p_So16UIViewControllerCtFZ",
+            "mangledName": "$s11OSCameraLib13OSCAMRFactoryV19createCameraWrapper12withDelegate3andAA012OSCAMRActionH0_pAA014OSCAMRCallbackH0_p_So16UIViewControllerCtFZ",
+            "moduleName": "OSCameraLib",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:11OSCameraLib13OSCAMRFactoryV",
+        "mangledName": "$s11OSCameraLib13OSCAMRFactoryV",
+        "moduleName": "OSCameraLib",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Photos",
+        "printedName": "Photos",
+        "declKind": "Import",
+        "moduleName": "OSCameraLib"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "OSCameraLib"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "OSCAMRCallbackDelegate",
+        "printedName": "OSCAMRCallbackDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "callback",
+            "printedName": "callback(result:error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "OSCameraLib.OSCAMRError?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OSCAMRError",
+                    "printedName": "OSCameraLib.OSCAMRError",
+                    "usr": "s:11OSCameraLib11OSCAMRErrorO"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11OSCameraLib22OSCAMRCallbackDelegateP8callback6result5errorySSSg_AA11OSCAMRErrorOSgtF",
+            "mangledName": "$s11OSCameraLib22OSCAMRCallbackDelegateP8callback6result5errorySSSg_AA11OSCAMRErrorOSgtF",
+            "moduleName": "OSCameraLib",
+            "genericSig": "<τ_0_0 where τ_0_0 : OSCameraLib.OSCAMRCallbackDelegate>",
+            "sugared_genericSig": "<Self where Self : OSCameraLib.OSCAMRCallbackDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:11OSCameraLib22OSCAMRCallbackDelegateP",
+        "mangledName": "$s11OSCameraLib22OSCAMRCallbackDelegateP",
+        "moduleName": "OSCameraLib",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OSCameraLib"
+      },
+      {
+        "kind": "Import",
+        "name": "Photos",
+        "printedName": "Photos",
+        "declKind": "Import",
+        "moduleName": "OSCameraLib"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "OSCameraLib"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "OSCAMRGalleryOptions",
+        "printedName": "OSCAMRGalleryOptions",
+        "declKind": "Class",
+        "usr": "s:11OSCameraLib20OSCAMRGalleryOptionsC",
+        "mangledName": "$s11OSCameraLib20OSCAMRGalleryOptionsC",
+        "moduleName": "OSCameraLib",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "OSCAMRPictureOptions",
+        "printedName": "OSCAMRPictureOptions",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(quality:size:correctOrientation:encodingType:saveToPhotoAlbum:direction:allowEdit:returnMetadata:latestVersion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OSCAMRPictureOptions",
+                "printedName": "OSCameraLib.OSCAMRPictureOptions",
+                "usr": "s:11OSCameraLib20OSCAMRPictureOptionsC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "OSCameraLib.OSCAMRSize?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OSCAMRSize",
+                    "printedName": "OSCameraLib.OSCAMRSize",
+                    "usr": "s:11OSCameraLib10OSCAMRSizeV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "OSCAMREncodingType",
+                "printedName": "OSCameraLib.OSCAMREncodingType",
+                "usr": "s:11OSCameraLib18OSCAMREncodingTypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "OSCAMRDirection",
+                "printedName": "OSCameraLib.OSCAMRDirection",
+                "usr": "s:11OSCameraLib15OSCAMRDirectionO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11OSCameraLib20OSCAMRPictureOptionsC7quality4size18correctOrientation12encodingType16saveToPhotoAlbum9direction9allowEdit14returnMetadata13latestVersionACSi_AA10OSCAMRSizeVSgSbAA014OSCAMREncodingJ0OSbAA15OSCAMRDirectionOS3btcfc",
+            "mangledName": "$s11OSCameraLib20OSCAMRPictureOptionsC7quality4size18correctOrientation12encodingType16saveToPhotoAlbum9direction9allowEdit14returnMetadata13latestVersionACSi_AA10OSCAMRSizeVSgSbAA014OSCAMREncodingJ0OSbAA15OSCAMRDirectionOS3btcfc",
+            "moduleName": "OSCameraLib",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:11OSCameraLib20OSCAMRPictureOptionsC",
+        "mangledName": "$s11OSCameraLib20OSCAMRPictureOptionsC",
+        "moduleName": "OSCameraLib",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "superclassUsr": "s:11OSCameraLib18OSCAMRMediaOptionsC",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "OSCameraLib.OSCAMRMediaOptions"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "OSCAMREncodingType",
+        "printedName": "OSCAMREncodingType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "jpeg",
+            "printedName": "jpeg",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(OSCameraLib.OSCAMREncodingType.Type) -> OSCameraLib.OSCAMREncodingType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OSCAMREncodingType",
+                    "printedName": "OSCameraLib.OSCAMREncodingType",
+                    "usr": "s:11OSCameraLib18OSCAMREncodingTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "OSCameraLib.OSCAMREncodingType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OSCAMREncodingType",
+                        "printedName": "OSCameraLib.OSCAMREncodingType",
+                        "usr": "s:11OSCameraLib18OSCAMREncodingTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11OSCameraLib18OSCAMREncodingTypeO4jpegyA2CmF",
+            "mangledName": "$s11OSCameraLib18OSCAMREncodingTypeO4jpegyA2CmF",
+            "moduleName": "OSCameraLib"
+          },
+          {
+            "kind": "Var",
+            "name": "png",
+            "printedName": "png",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(OSCameraLib.OSCAMREncodingType.Type) -> OSCameraLib.OSCAMREncodingType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OSCAMREncodingType",
+                    "printedName": "OSCameraLib.OSCAMREncodingType",
+                    "usr": "s:11OSCameraLib18OSCAMREncodingTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "OSCameraLib.OSCAMREncodingType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OSCAMREncodingType",
+                        "printedName": "OSCameraLib.OSCAMREncodingType",
+                        "usr": "s:11OSCameraLib18OSCAMREncodingTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11OSCameraLib18OSCAMREncodingTypeO3pngyA2CmF",
+            "mangledName": "$s11OSCameraLib18OSCAMREncodingTypeO3pngyA2CmF",
+            "moduleName": "OSCameraLib"
+          },
+          {
+            "kind": "Var",
+            "name": "description",
+            "printedName": "description",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11OSCameraLib18OSCAMREncodingTypeO11descriptionSSvp",
+            "mangledName": "$s11OSCameraLib18OSCAMREncodingTypeO11descriptionSSvp",
+            "moduleName": "OSCameraLib",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11OSCameraLib18OSCAMREncodingTypeO11descriptionSSvg",
+                "mangledName": "$s11OSCameraLib18OSCAMREncodingTypeO11descriptionSSvg",
+                "moduleName": "OSCameraLib",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "OSCameraLib.OSCAMREncodingType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OSCAMREncodingType",
+                    "printedName": "OSCameraLib.OSCAMREncodingType",
+                    "usr": "s:11OSCameraLib18OSCAMREncodingTypeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11OSCameraLib18OSCAMREncodingTypeO8rawValueACSgSi_tcfc",
+            "mangledName": "$s11OSCameraLib18OSCAMREncodingTypeO8rawValueACSgSi_tcfc",
+            "moduleName": "OSCameraLib",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11OSCameraLib18OSCAMREncodingTypeO8rawValueSivp",
+            "mangledName": "$s11OSCameraLib18OSCAMREncodingTypeO8rawValueSivp",
+            "moduleName": "OSCameraLib",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11OSCameraLib18OSCAMREncodingTypeO8rawValueSivg",
+                "mangledName": "$s11OSCameraLib18OSCAMREncodingTypeO8rawValueSivg",
+                "moduleName": "OSCameraLib",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:11OSCameraLib18OSCAMREncodingTypeO",
+        "mangledName": "$s11OSCameraLib18OSCAMREncodingTypeO",
+        "moduleName": "OSCameraLib",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "OSCAMRSize",
+        "printedName": "OSCAMRSize",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(width:height:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OSCAMRSize",
+                "printedName": "OSCameraLib.OSCAMRSize",
+                "usr": "s:11OSCameraLib10OSCAMRSizeV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11OSCameraLib10OSCAMRSizeV5width6heightACSi_Sitcfc",
+            "mangledName": "$s11OSCameraLib10OSCAMRSizeV5width6heightACSi_Sitcfc",
+            "moduleName": "OSCameraLib",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:11OSCameraLib10OSCAMRSizeV",
+        "mangledName": "$s11OSCameraLib10OSCAMRSizeV",
+        "moduleName": "OSCameraLib",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "OSCameraLib"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "OSCameraLib"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "OSCameraLib"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OSCameraLib"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "OSCAMRError",
+        "printedName": "OSCAMRError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "cameraAccess",
+            "printedName": "cameraAccess",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(OSCameraLib.OSCAMRError.Type) -> OSCameraLib.OSCAMRError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OSCAMRError",
+                    "printedName": "OSCameraLib.OSCAMRError",
+                    "usr": "s:11OSCameraLib11OSCAMRErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "OSCameraLib.OSCAMRError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OSCAMRError",
+                        "printedName": "OSCameraLib.OSCAMRError",
+                        "usr": "s:11OSCameraLib11OSCAMRErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11OSCameraLib11OSCAMRErrorO12cameraAccessyA2CmF",
+            "mangledName": "$s11OSCameraLib11OSCAMRErrorO12cameraAccessyA2CmF",
+            "moduleName": "OSCameraLib",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "cameraAvailability",
+            "printedName": "cameraAvailability",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(OSCameraLib.OSCAMRError.Type) -> OSCameraLib.OSCAMRError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OSCAMRError",
+                    "printedName": "OSCameraLib.OSCAMRError",
+                    "usr": "s:11OSCameraLib11OSCAMRErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "OSCameraLib.OSCAMRError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OSCAMRError",
+                        "printedName": "OSCameraLib.OSCAMRError",
+                        "usr": "s:11OSCameraLib11OSCAMRErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11OSCameraLib11OSCAMRErrorO18cameraAvailabilityyA2CmF",
+            "mangledName": "$s11OSCameraLib11OSCAMRErrorO18cameraAvailabilityyA2CmF",
+            "moduleName": "OSCameraLib"
+          },
+          {
+            "kind": "Var",
+            "name": "takePictureIssue",
+            "printedName": "takePictureIssue",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(OSCameraLib.OSCAMRError.Type) -> OSCameraLib.OSCAMRError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OSCAMRError",
+                    "printedName": "OSCameraLib.OSCAMRError",
+                    "usr": "s:11OSCameraLib11OSCAMRErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "OSCameraLib.OSCAMRError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OSCAMRError",
+                        "printedName": "OSCameraLib.OSCAMRError",
+                        "usr": "s:11OSCameraLib11OSCAMRErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11OSCameraLib11OSCAMRErrorO16takePictureIssueyA2CmF",
+            "mangledName": "$s11OSCameraLib11OSCAMRErrorO16takePictureIssueyA2CmF",
+            "moduleName": "OSCameraLib",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "takePictureArguments",
+            "printedName": "takePictureArguments",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(OSCameraLib.OSCAMRError.Type) -> OSCameraLib.OSCAMRError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OSCAMRError",
+                    "printedName": "OSCameraLib.OSCAMRError",
+                    "usr": "s:11OSCameraLib11OSCAMRErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "OSCameraLib.OSCAMRError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OSCAMRError",
+                        "printedName": "OSCameraLib.OSCAMRError",
+                        "usr": "s:11OSCameraLib11OSCAMRErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11OSCameraLib11OSCAMRErrorO20takePictureArgumentsyA2CmF",
+            "mangledName": "$s11OSCameraLib11OSCAMRErrorO20takePictureArgumentsyA2CmF",
+            "moduleName": "OSCameraLib"
+          },
+          {
+            "kind": "Var",
+            "name": "takePictureCancel",
+            "printedName": "takePictureCancel",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(OSCameraLib.OSCAMRError.Type) -> OSCameraLib.OSCAMRError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OSCAMRError",
+                    "printedName": "OSCameraLib.OSCAMRError",
+                    "usr": "s:11OSCameraLib11OSCAMRErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "OSCameraLib.OSCAMRError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OSCAMRError",
+                        "printedName": "OSCameraLib.OSCAMRError",
+                        "usr": "s:11OSCameraLib11OSCAMRErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11OSCameraLib11OSCAMRErrorO17takePictureCancelyA2CmF",
+            "mangledName": "$s11OSCameraLib11OSCAMRErrorO17takePictureCancelyA2CmF",
+            "moduleName": "OSCameraLib"
+          },
+          {
+            "kind": "Var",
+            "name": "invalidImageData",
+            "printedName": "invalidImageData",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(OSCameraLib.OSCAMRError.Type) -> OSCameraLib.OSCAMRError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OSCAMRError",
+                    "printedName": "OSCameraLib.OSCAMRError",
+                    "usr": "s:11OSCameraLib11OSCAMRErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "OSCameraLib.OSCAMRError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OSCAMRError",
+                        "printedName": "OSCameraLib.OSCAMRError",
+                        "usr": "s:11OSCameraLib11OSCAMRErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11OSCameraLib11OSCAMRErrorO16invalidImageDatayA2CmF",
+            "mangledName": "$s11OSCameraLib11OSCAMRErrorO16invalidImageDatayA2CmF",
+            "moduleName": "OSCameraLib",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "editPictureIssue",
+            "printedName": "editPictureIssue",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(OSCameraLib.OSCAMRError.Type) -> OSCameraLib.OSCAMRError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OSCAMRError",
+                    "printedName": "OSCameraLib.OSCAMRError",
+                    "usr": "s:11OSCameraLib11OSCAMRErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "OSCameraLib.OSCAMRError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OSCAMRError",
+                        "printedName": "OSCameraLib.OSCAMRError",
+                        "usr": "s:11OSCameraLib11OSCAMRErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11OSCameraLib11OSCAMRErrorO16editPictureIssueyA2CmF",
+            "mangledName": "$s11OSCameraLib11OSCAMRErrorO16editPictureIssueyA2CmF",
+            "moduleName": "OSCameraLib"
+          },
+          {
+            "kind": "Var",
+            "name": "editPictureCancel",
+            "printedName": "editPictureCancel",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(OSCameraLib.OSCAMRError.Type) -> OSCameraLib.OSCAMRError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OSCAMRError",
+                    "printedName": "OSCameraLib.OSCAMRError",
+                    "usr": "s:11OSCameraLib11OSCAMRErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "OSCameraLib.OSCAMRError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OSCAMRError",
+                        "printedName": "OSCameraLib.OSCAMRError",
+                        "usr": "s:11OSCameraLib11OSCAMRErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11OSCameraLib11OSCAMRErrorO17editPictureCancelyA2CmF",
+            "mangledName": "$s11OSCameraLib11OSCAMRErrorO17editPictureCancelyA2CmF",
+            "moduleName": "OSCameraLib"
+          },
+          {
+            "kind": "Var",
+            "name": "photoLibraryAccess",
+            "printedName": "photoLibraryAccess",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(OSCameraLib.OSCAMRError.Type) -> OSCameraLib.OSCAMRError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OSCAMRError",
+                    "printedName": "OSCameraLib.OSCAMRError",
+                    "usr": "s:11OSCameraLib11OSCAMRErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "OSCameraLib.OSCAMRError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OSCAMRError",
+                        "printedName": "OSCameraLib.OSCAMRError",
+                        "usr": "s:11OSCameraLib11OSCAMRErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11OSCameraLib11OSCAMRErrorO18photoLibraryAccessyA2CmF",
+            "mangledName": "$s11OSCameraLib11OSCAMRErrorO18photoLibraryAccessyA2CmF",
+            "moduleName": "OSCameraLib",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "imageNotFound",
+            "printedName": "imageNotFound",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(OSCameraLib.OSCAMRError.Type) -> OSCameraLib.OSCAMRError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OSCAMRError",
+                    "printedName": "OSCameraLib.OSCAMRError",
+                    "usr": "s:11OSCameraLib11OSCAMRErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "OSCameraLib.OSCAMRError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OSCAMRError",
+                        "printedName": "OSCameraLib.OSCAMRError",
+                        "usr": "s:11OSCameraLib11OSCAMRErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11OSCameraLib11OSCAMRErrorO13imageNotFoundyA2CmF",
+            "mangledName": "$s11OSCameraLib11OSCAMRErrorO13imageNotFoundyA2CmF",
+            "moduleName": "OSCameraLib"
+          },
+          {
+            "kind": "Var",
+            "name": "choosePictureIssue",
+            "printedName": "choosePictureIssue",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(OSCameraLib.OSCAMRError.Type) -> OSCameraLib.OSCAMRError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OSCAMRError",
+                    "printedName": "OSCameraLib.OSCAMRError",
+                    "usr": "s:11OSCameraLib11OSCAMRErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "OSCameraLib.OSCAMRError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OSCAMRError",
+                        "printedName": "OSCameraLib.OSCAMRError",
+                        "usr": "s:11OSCameraLib11OSCAMRErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11OSCameraLib11OSCAMRErrorO18choosePictureIssueyA2CmF",
+            "mangledName": "$s11OSCameraLib11OSCAMRErrorO18choosePictureIssueyA2CmF",
+            "moduleName": "OSCameraLib"
+          },
+          {
+            "kind": "Var",
+            "name": "choosePictureCancel",
+            "printedName": "choosePictureCancel",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(OSCameraLib.OSCAMRError.Type) -> OSCameraLib.OSCAMRError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OSCAMRError",
+                    "printedName": "OSCameraLib.OSCAMRError",
+                    "usr": "s:11OSCameraLib11OSCAMRErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "OSCameraLib.OSCAMRError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OSCAMRError",
+                        "printedName": "OSCameraLib.OSCAMRError",
+                        "usr": "s:11OSCameraLib11OSCAMRErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11OSCameraLib11OSCAMRErrorO19choosePictureCancelyA2CmF",
+            "mangledName": "$s11OSCameraLib11OSCAMRErrorO19choosePictureCancelyA2CmF",
+            "moduleName": "OSCameraLib"
+          },
+          {
+            "kind": "Var",
+            "name": "captureVideoIssue",
+            "printedName": "captureVideoIssue",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(OSCameraLib.OSCAMRError.Type) -> OSCameraLib.OSCAMRError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OSCAMRError",
+                    "printedName": "OSCameraLib.OSCAMRError",
+                    "usr": "s:11OSCameraLib11OSCAMRErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "OSCameraLib.OSCAMRError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OSCAMRError",
+                        "printedName": "OSCameraLib.OSCAMRError",
+                        "usr": "s:11OSCameraLib11OSCAMRErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11OSCameraLib11OSCAMRErrorO17captureVideoIssueyA2CmF",
+            "mangledName": "$s11OSCameraLib11OSCAMRErrorO17captureVideoIssueyA2CmF",
+            "moduleName": "OSCameraLib",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "captureVideoCancel",
+            "printedName": "captureVideoCancel",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(OSCameraLib.OSCAMRError.Type) -> OSCameraLib.OSCAMRError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OSCAMRError",
+                    "printedName": "OSCameraLib.OSCAMRError",
+                    "usr": "s:11OSCameraLib11OSCAMRErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "OSCameraLib.OSCAMRError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OSCAMRError",
+                        "printedName": "OSCameraLib.OSCAMRError",
+                        "usr": "s:11OSCameraLib11OSCAMRErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11OSCameraLib11OSCAMRErrorO18captureVideoCancelyA2CmF",
+            "mangledName": "$s11OSCameraLib11OSCAMRErrorO18captureVideoCancelyA2CmF",
+            "moduleName": "OSCameraLib"
+          },
+          {
+            "kind": "Var",
+            "name": "videoNotFound",
+            "printedName": "videoNotFound",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(OSCameraLib.OSCAMRError.Type) -> OSCameraLib.OSCAMRError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OSCAMRError",
+                    "printedName": "OSCameraLib.OSCAMRError",
+                    "usr": "s:11OSCameraLib11OSCAMRErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "OSCameraLib.OSCAMRError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OSCAMRError",
+                        "printedName": "OSCameraLib.OSCAMRError",
+                        "usr": "s:11OSCameraLib11OSCAMRErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11OSCameraLib11OSCAMRErrorO13videoNotFoundyA2CmF",
+            "mangledName": "$s11OSCameraLib11OSCAMRErrorO13videoNotFoundyA2CmF",
+            "moduleName": "OSCameraLib",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "chooseMultimediaIssue",
+            "printedName": "chooseMultimediaIssue",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(OSCameraLib.OSCAMRError.Type) -> OSCameraLib.OSCAMRError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OSCAMRError",
+                    "printedName": "OSCameraLib.OSCAMRError",
+                    "usr": "s:11OSCameraLib11OSCAMRErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "OSCameraLib.OSCAMRError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OSCAMRError",
+                        "printedName": "OSCameraLib.OSCAMRError",
+                        "usr": "s:11OSCameraLib11OSCAMRErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11OSCameraLib11OSCAMRErrorO21chooseMultimediaIssueyA2CmF",
+            "mangledName": "$s11OSCameraLib11OSCAMRErrorO21chooseMultimediaIssueyA2CmF",
+            "moduleName": "OSCameraLib"
+          },
+          {
+            "kind": "Var",
+            "name": "chooseMultimediaCancel",
+            "printedName": "chooseMultimediaCancel",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(OSCameraLib.OSCAMRError.Type) -> OSCameraLib.OSCAMRError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OSCAMRError",
+                    "printedName": "OSCameraLib.OSCAMRError",
+                    "usr": "s:11OSCameraLib11OSCAMRErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "OSCameraLib.OSCAMRError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OSCAMRError",
+                        "printedName": "OSCameraLib.OSCAMRError",
+                        "usr": "s:11OSCameraLib11OSCAMRErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11OSCameraLib11OSCAMRErrorO22chooseMultimediaCancelyA2CmF",
+            "mangledName": "$s11OSCameraLib11OSCAMRErrorO22chooseMultimediaCancelyA2CmF",
+            "moduleName": "OSCameraLib"
+          },
+          {
+            "kind": "Var",
+            "name": "fetchImageFromURLFailed",
+            "printedName": "fetchImageFromURLFailed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(OSCameraLib.OSCAMRError.Type) -> OSCameraLib.OSCAMRError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OSCAMRError",
+                    "printedName": "OSCameraLib.OSCAMRError",
+                    "usr": "s:11OSCameraLib11OSCAMRErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "OSCameraLib.OSCAMRError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OSCAMRError",
+                        "printedName": "OSCameraLib.OSCAMRError",
+                        "usr": "s:11OSCameraLib11OSCAMRErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11OSCameraLib11OSCAMRErrorO23fetchImageFromURLFailedyA2CmF",
+            "mangledName": "$s11OSCameraLib11OSCAMRErrorO23fetchImageFromURLFailedyA2CmF",
+            "moduleName": "OSCameraLib"
+          },
+          {
+            "kind": "Var",
+            "name": "playVideoIssue",
+            "printedName": "playVideoIssue",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(OSCameraLib.OSCAMRError.Type) -> OSCameraLib.OSCAMRError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OSCAMRError",
+                    "printedName": "OSCameraLib.OSCAMRError",
+                    "usr": "s:11OSCameraLib11OSCAMRErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "OSCameraLib.OSCAMRError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OSCAMRError",
+                        "printedName": "OSCameraLib.OSCAMRError",
+                        "usr": "s:11OSCameraLib11OSCAMRErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11OSCameraLib11OSCAMRErrorO14playVideoIssueyA2CmF",
+            "mangledName": "$s11OSCameraLib11OSCAMRErrorO14playVideoIssueyA2CmF",
+            "moduleName": "OSCameraLib",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "invalidEncodeResultMedia",
+            "printedName": "invalidEncodeResultMedia",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(OSCameraLib.OSCAMRError.Type) -> OSCameraLib.OSCAMRError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OSCAMRError",
+                    "printedName": "OSCameraLib.OSCAMRError",
+                    "usr": "s:11OSCameraLib11OSCAMRErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "OSCameraLib.OSCAMRError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OSCAMRError",
+                        "printedName": "OSCameraLib.OSCAMRError",
+                        "usr": "s:11OSCameraLib11OSCAMRErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11OSCameraLib11OSCAMRErrorO24invalidEncodeResultMediayA2CmF",
+            "mangledName": "$s11OSCameraLib11OSCAMRErrorO24invalidEncodeResultMediayA2CmF",
+            "moduleName": "OSCameraLib",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "generalIssue",
+            "printedName": "generalIssue",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(OSCameraLib.OSCAMRError.Type) -> OSCameraLib.OSCAMRError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OSCAMRError",
+                    "printedName": "OSCameraLib.OSCAMRError",
+                    "usr": "s:11OSCameraLib11OSCAMRErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "OSCameraLib.OSCAMRError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OSCAMRError",
+                        "printedName": "OSCameraLib.OSCAMRError",
+                        "usr": "s:11OSCameraLib11OSCAMRErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11OSCameraLib11OSCAMRErrorO12generalIssueyA2CmF",
+            "mangledName": "$s11OSCameraLib11OSCAMRErrorO12generalIssueyA2CmF",
+            "moduleName": "OSCameraLib"
+          },
+          {
+            "kind": "Var",
+            "name": "errorDescription",
+            "printedName": "errorDescription",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11OSCameraLib11OSCAMRErrorO16errorDescriptionSSSgvp",
+            "mangledName": "$s11OSCameraLib11OSCAMRErrorO16errorDescriptionSSSgvp",
+            "moduleName": "OSCameraLib",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11OSCameraLib11OSCAMRErrorO16errorDescriptionSSSgvg",
+                "mangledName": "$s11OSCameraLib11OSCAMRErrorO16errorDescriptionSSSgvg",
+                "moduleName": "OSCameraLib",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "OSCameraLib.OSCAMRError?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OSCAMRError",
+                    "printedName": "OSCameraLib.OSCAMRError",
+                    "usr": "s:11OSCameraLib11OSCAMRErrorO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11OSCameraLib11OSCAMRErrorO8rawValueACSgSi_tcfc",
+            "mangledName": "$s11OSCameraLib11OSCAMRErrorO8rawValueACSgSi_tcfc",
+            "moduleName": "OSCameraLib",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11OSCameraLib11OSCAMRErrorO8rawValueSivp",
+            "mangledName": "$s11OSCameraLib11OSCAMRErrorO8rawValueSivp",
+            "moduleName": "OSCameraLib",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11OSCameraLib11OSCAMRErrorO8rawValueSivg",
+                "mangledName": "$s11OSCameraLib11OSCAMRErrorO8rawValueSivg",
+                "moduleName": "OSCameraLib",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:11OSCameraLib11OSCAMRErrorO",
+        "mangledName": "$s11OSCameraLib11OSCAMRErrorO",
+        "moduleName": "OSCameraLib",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomNSError",
+            "printedName": "CustomNSError",
+            "usr": "s:10Foundation13CustomNSErrorP",
+            "mangledName": "$s10Foundation13CustomNSErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "LocalizedError",
+            "printedName": "LocalizedError",
+            "usr": "s:10Foundation14LocalizedErrorP",
+            "mangledName": "$s10Foundation14LocalizedErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "OSCameraLib"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "OSCameraLib"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "OSCAMRActionDelegate",
+        "printedName": "OSCAMRActionDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "captureMedia",
+            "printedName": "captureMedia(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "OSCAMRMediaOptions",
+                "printedName": "OSCameraLib.OSCAMRMediaOptions",
+                "usr": "s:11OSCameraLib18OSCAMRMediaOptionsC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11OSCameraLib20OSCAMRActionDelegateP12captureMedia4withyAA18OSCAMRMediaOptionsC_tF",
+            "mangledName": "$s11OSCameraLib20OSCAMRActionDelegateP12captureMedia4withyAA18OSCAMRMediaOptionsC_tF",
+            "moduleName": "OSCameraLib",
+            "genericSig": "<τ_0_0 where τ_0_0 : OSCameraLib.OSCAMRActionDelegate>",
+            "sugared_genericSig": "<Self where Self : OSCameraLib.OSCAMRActionDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "editPicture",
+            "printedName": "editPicture(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11OSCameraLib20OSCAMRActionDelegateP11editPictureyySo7UIImageCF",
+            "mangledName": "$s11OSCameraLib20OSCAMRActionDelegateP11editPictureyySo7UIImageCF",
+            "moduleName": "OSCameraLib",
+            "genericSig": "<τ_0_0 where τ_0_0 : OSCameraLib.OSCAMRActionDelegate>",
+            "sugared_genericSig": "<Self where Self : OSCameraLib.OSCAMRActionDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "editPicture",
+            "printedName": "editPicture(from:with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "OSCAMREditOptions",
+                "printedName": "OSCameraLib.OSCAMREditOptions",
+                "usr": "s:11OSCameraLib17OSCAMREditOptionsC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11OSCameraLib20OSCAMRActionDelegateP11editPicture4from4withySS_AA17OSCAMREditOptionsCtF",
+            "mangledName": "$s11OSCameraLib20OSCAMRActionDelegateP11editPicture4from4withySS_AA17OSCAMREditOptionsCtF",
+            "moduleName": "OSCameraLib",
+            "genericSig": "<τ_0_0 where τ_0_0 : OSCameraLib.OSCAMRActionDelegate>",
+            "sugared_genericSig": "<Self where Self : OSCameraLib.OSCAMRActionDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "chooseFromGallery",
+            "printedName": "chooseFromGallery(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "OSCAMRGalleryOptions",
+                "printedName": "OSCameraLib.OSCAMRGalleryOptions",
+                "usr": "s:11OSCameraLib20OSCAMRGalleryOptionsC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11OSCameraLib20OSCAMRActionDelegateP17chooseFromGallery4withyAA20OSCAMRGalleryOptionsC_tF",
+            "mangledName": "$s11OSCameraLib20OSCAMRActionDelegateP17chooseFromGallery4withyAA20OSCAMRGalleryOptionsC_tF",
+            "moduleName": "OSCameraLib",
+            "genericSig": "<τ_0_0 where τ_0_0 : OSCameraLib.OSCAMRActionDelegate>",
+            "sugared_genericSig": "<Self where Self : OSCameraLib.OSCAMRActionDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "playVideo",
+            "printedName": "playVideo(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11OSCameraLib20OSCAMRActionDelegateP9playVideoyy10Foundation3URLVYaKF",
+            "mangledName": "$s11OSCameraLib20OSCAMRActionDelegateP9playVideoyy10Foundation3URLVYaKF",
+            "moduleName": "OSCameraLib",
+            "genericSig": "<τ_0_0 where τ_0_0 : OSCameraLib.OSCAMRActionDelegate>",
+            "sugared_genericSig": "<Self where Self : OSCameraLib.OSCAMRActionDelegate>",
+            "protocolReq": true,
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "cleanTemporaryFiles",
+            "printedName": "cleanTemporaryFiles()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11OSCameraLib20OSCAMRActionDelegateP19cleanTemporaryFilesyyF",
+            "mangledName": "$s11OSCameraLib20OSCAMRActionDelegateP19cleanTemporaryFilesyyF",
+            "moduleName": "OSCameraLib",
+            "genericSig": "<τ_0_0 where τ_0_0 : OSCameraLib.OSCAMRActionDelegate>",
+            "sugared_genericSig": "<Self where Self : OSCameraLib.OSCAMRActionDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "choosePicture",
+            "printedName": "choosePicture(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11OSCameraLib20OSCAMRActionDelegatePAAE13choosePictureyySbF",
+            "mangledName": "$s11OSCameraLib20OSCAMRActionDelegatePAAE13choosePictureyySbF",
+            "moduleName": "OSCameraLib",
+            "genericSig": "<τ_0_0 where τ_0_0 : OSCameraLib.OSCAMRActionDelegate>",
+            "sugared_genericSig": "<Self where Self : OSCameraLib.OSCAMRActionDelegate>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "chooseMultimedia",
+            "printedName": "chooseMultimedia(_:_:_:and:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "OSCAMRMediaType",
+                "printedName": "OSCameraLib.OSCAMRMediaType",
+                "usr": "s:11OSCameraLib15OSCAMRMediaTypeV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11OSCameraLib20OSCAMRActionDelegatePAAE16chooseMultimedia___3andyAA15OSCAMRMediaTypeV_S3btF",
+            "mangledName": "$s11OSCameraLib20OSCAMRActionDelegatePAAE16chooseMultimedia___3andyAA15OSCAMRMediaTypeV_S3btF",
+            "moduleName": "OSCameraLib",
+            "genericSig": "<τ_0_0 where τ_0_0 : OSCameraLib.OSCAMRActionDelegate>",
+            "sugared_genericSig": "<Self where Self : OSCameraLib.OSCAMRActionDelegate>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:11OSCameraLib20OSCAMRActionDelegateP",
+        "mangledName": "$s11OSCameraLib20OSCAMRActionDelegateP",
+        "moduleName": "OSCameraLib",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "OSCameraLib"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "OSCameraLib"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "OSCameraLib"
+      },
+      {
+        "kind": "Import",
+        "name": "AVKit",
+        "printedName": "AVKit",
+        "declKind": "Import",
+        "moduleName": "OSCameraLib"
+      },
+      {
+        "kind": "Import",
+        "name": "Photos",
+        "printedName": "Photos",
+        "declKind": "Import",
+        "moduleName": "OSCameraLib"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "OSCameraLib"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "OSCameraLib"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AVPlayerViewController",
+        "printedName": "AVPlayerViewController",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "viewDidDisappear",
+            "printedName": "viewDidDisappear(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@OSCameraLib@@objc(cs)AVPlayerViewController(im)viewDidDisappear:",
+            "mangledName": "$sSo22AVPlayerViewControllerC11OSCameraLibE16viewDidDisappearyySbF",
+            "moduleName": "OSCameraLib",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "viewDidDisappear:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)AVPlayerViewController",
+        "moduleName": "AVKit",
+        "isOpen": true,
+        "intro_iOS": "8.0",
+        "objc_name": "AVPlayerViewController",
+        "declAttributes": [
+          "Custom",
+          "Available",
+          "ObjC",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)UIViewController",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Interfaces\/Editor\/OSCAMRCropThickView.swift",
+      "kind": "FloatLiteral",
+      "offset": 484,
+      "length": 3,
+      "value": "3.0"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Interfaces\/Editor\/OSCAMRCropThickView.swift",
+      "kind": "FloatLiteral",
+      "offset": 621,
+      "length": 4,
+      "value": "20.0"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Interfaces\/Editor\/OSCAMRCropThickView.swift",
+      "kind": "FloatLiteral",
+      "offset": 760,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Models\/OSCAMRVideoOptions.swift",
+      "kind": "StringLiteral",
+      "offset": 13,
+      "length": 18,
+      "value": "\"OSCameraLib.OSCAMRVideoOptions\""
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Models\/OSCAMRVideoOptions.swift",
+      "kind": "FloatLiteral",
+      "offset": 395,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Models\/OSCAMRVideoOptions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 431,
+      "length": 3,
+      "value": "480"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Interfaces\/OSCAMRGalleryBehaviour.swift",
+      "kind": "BooleanLiteral",
+      "offset": 203,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Interfaces\/OSCAMRGalleryBehaviour.swift",
+      "kind": "BooleanLiteral",
+      "offset": 240,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Interfaces\/OSCAMRGalleryBehaviour.swift",
+      "kind": "StringLiteral",
+      "offset": 55,
+      "length": 22,
+      "value": "\"OSCameraLib.OSCAMRGalleryBehaviour\""
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Models\/OSCAMRMediaOptions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 976,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Models\/OSCAMRMediaOptions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 987,
+      "length": 5,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Models\/OSCAMRMediaOptions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 976,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Models\/OSCAMRMediaOptions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 987,
+      "length": 5,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Models\/OSCAMRMediaOptions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 976,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Models\/OSCAMRMediaOptions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 987,
+      "length": 5,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Interfaces\/Editor\/OSCAMRCropView.swift",
+      "kind": "FloatLiteral",
+      "offset": 697,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Interfaces\/Editor\/OSCAMRCropView.swift",
+      "kind": "FloatLiteral",
+      "offset": 955,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Interfaces\/Editor\/OSCAMRImageEditorView.swift",
+      "kind": "FloatLiteral",
+      "offset": 535,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Interfaces\/Editor\/OSCAMRImageEditorView.swift",
+      "kind": "FloatLiteral",
+      "offset": 631,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Interfaces\/Editor\/OSCAMRImageEditorView.swift",
+      "kind": "FloatLiteral",
+      "offset": 983,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Interfaces\/Editor\/OSCAMRImageEditorView.swift",
+      "kind": "FloatLiteral",
+      "offset": 1122,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Interfaces\/Editor\/OSCAMRImageEditorView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1342,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Interfaces\/Extensions\/Data+Transformations.swift",
+      "kind": "StringLiteral",
+      "offset": 361,
+      "length": 12,
+      "value": "\"image\/jpeg\""
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Interfaces\/Extensions\/Data+Transformations.swift",
+      "kind": "StringLiteral",
+      "offset": 420,
+      "length": 11,
+      "value": "\"image\/png\""
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Interfaces\/Extensions\/Data+Transformations.swift",
+      "kind": "IntegerLiteral",
+      "offset": 500,
+      "length": 4,
+      "value": "0xFF"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Interfaces\/Extensions\/Data+Transformations.swift",
+      "kind": "IntegerLiteral",
+      "offset": 542,
+      "length": 4,
+      "value": "0x89"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Interfaces\/Extensions\/URL+Transformations.swift",
+      "kind": "BooleanLiteral",
+      "offset": 398,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/OSCAMRCamera.swift",
+      "kind": "StringLiteral",
+      "offset": 121,
+      "length": 12,
+      "value": "\"OSCameraLib.OSCAMRCamera\""
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Models\/OSCAMRMediaType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 252,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Models\/OSCAMRMediaType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 257,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Models\/OSCAMRMediaType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 305,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Models\/OSCAMRMediaType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 310,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Models\/OSCAMRMediaType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 468,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Models\/OSCAMRMediaType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 483,
+      "length": 5,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Models\/OSCAMRMediaType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 502,
+      "length": 4,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Models\/OSCAMRMediaType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 468,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Models\/OSCAMRMediaType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 483,
+      "length": 5,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Models\/OSCAMRMediaType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 502,
+      "length": 4,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Models\/OSCAMRMediaType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 468,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Models\/OSCAMRMediaType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 483,
+      "length": 5,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Models\/OSCAMRMediaType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 502,
+      "length": 4,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Interfaces\/PhotoLibrary\/OSCAMRPhotoLibraryView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 418,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Interfaces\/PhotoLibrary\/OSCAMRPhotoLibraryView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 465,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/OSCAMRFlowBehaviour.swift",
+      "kind": "Array",
+      "offset": 1209,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/OSCAMRFlowBehaviour.swift",
+      "kind": "StringLiteral",
+      "offset": 40,
+      "length": 19,
+      "value": "\"OSCameraLib.OSCAMRFlowBehaviour\""
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Interfaces\/PhotoLibrary\/OSCAMRPhotoLibraryService.swift",
+      "kind": "StringLiteral",
+      "offset": 117,
+      "length": 25,
+      "value": "\"OSCameraLib.OSCAMRPhotoLibraryService\""
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Models\/OSCAMRPictureOptions.swift",
+      "kind": "StringLiteral",
+      "offset": 96,
+      "length": 20,
+      "value": "\"OSCameraLib.OSCAMRPictureOptions\""
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Models\/OSCAMRPictureOptions.swift",
+      "kind": "FloatLiteral",
+      "offset": 1499,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Models\/OSCAMRPictureOptions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1535,
+      "length": 4,
+      "value": "1080"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Models\/OSCAMRPictureOptions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1672,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Models\/OSCAMRPictureOptions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1683,
+      "length": 3,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Models\/OSCAMRPictureOptions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1672,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Models\/OSCAMRPictureOptions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1683,
+      "length": 3,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Models\/OSCAMRPictureOptions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1672,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Models\/OSCAMRPictureOptions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1683,
+      "length": 3,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Models\/OSCAMRError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 180,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Models\/OSCAMRError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 212,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Models\/OSCAMRError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 283,
+      "length": 2,
+      "value": "11"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Models\/OSCAMRError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 318,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Models\/OSCAMRError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 350,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Models\/OSCAMRError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 421,
+      "length": 1,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Models\/OSCAMRError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 451,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Models\/OSCAMRError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 483,
+      "length": 2,
+      "value": "14"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Models\/OSCAMRError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 558,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Models\/OSCAMRError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 585,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Models\/OSCAMRError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 618,
+      "length": 2,
+      "value": "13"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Models\/OSCAMRError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 652,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Models\/OSCAMRError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 725,
+      "length": 2,
+      "value": "18"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Models\/OSCAMRError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 758,
+      "length": 2,
+      "value": "19"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Models\/OSCAMRError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 831,
+      "length": 2,
+      "value": "28"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Models\/OSCAMRError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 867,
+      "length": 2,
+      "value": "21"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Models\/OSCAMRError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 904,
+      "length": 2,
+      "value": "23"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Models\/OSCAMRError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 942,
+      "length": 2,
+      "value": "31"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Models\/OSCAMRError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1009,
+      "length": 2,
+      "value": "26"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Models\/OSCAMRError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1083,
+      "length": 2,
+      "value": "22"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Models\/OSCAMRError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1110,
+      "length": 2,
+      "value": "29"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Models\/OSCAMRError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 180,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Models\/OSCAMRError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 212,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Models\/OSCAMRError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 283,
+      "length": 2,
+      "value": "11"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Models\/OSCAMRError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 318,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Models\/OSCAMRError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 350,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Models\/OSCAMRError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 421,
+      "length": 1,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Models\/OSCAMRError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 451,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Models\/OSCAMRError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 483,
+      "length": 2,
+      "value": "14"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Models\/OSCAMRError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 558,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Models\/OSCAMRError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 585,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Models\/OSCAMRError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 618,
+      "length": 2,
+      "value": "13"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Models\/OSCAMRError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 652,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Models\/OSCAMRError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 725,
+      "length": 2,
+      "value": "18"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Models\/OSCAMRError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 758,
+      "length": 2,
+      "value": "19"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Models\/OSCAMRError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 831,
+      "length": 2,
+      "value": "28"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Models\/OSCAMRError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 867,
+      "length": 2,
+      "value": "21"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Models\/OSCAMRError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 904,
+      "length": 2,
+      "value": "23"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Models\/OSCAMRError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 942,
+      "length": 2,
+      "value": "31"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Models\/OSCAMRError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1009,
+      "length": 2,
+      "value": "26"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Models\/OSCAMRError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1083,
+      "length": 2,
+      "value": "22"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Models\/OSCAMRError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1110,
+      "length": 2,
+      "value": "29"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Models\/OSCAMRError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 180,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Models\/OSCAMRError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 212,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Models\/OSCAMRError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 283,
+      "length": 2,
+      "value": "11"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Models\/OSCAMRError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 318,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Models\/OSCAMRError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 350,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Models\/OSCAMRError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 421,
+      "length": 1,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Models\/OSCAMRError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 451,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Models\/OSCAMRError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 483,
+      "length": 2,
+      "value": "14"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Models\/OSCAMRError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 558,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Models\/OSCAMRError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 585,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Models\/OSCAMRError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 618,
+      "length": 2,
+      "value": "13"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Models\/OSCAMRError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 652,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Models\/OSCAMRError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 725,
+      "length": 2,
+      "value": "18"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Models\/OSCAMRError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 758,
+      "length": 2,
+      "value": "19"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Models\/OSCAMRError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 831,
+      "length": 2,
+      "value": "28"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Models\/OSCAMRError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 867,
+      "length": 2,
+      "value": "21"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Models\/OSCAMRError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 904,
+      "length": 2,
+      "value": "23"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Models\/OSCAMRError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 942,
+      "length": 2,
+      "value": "31"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Models\/OSCAMRError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1009,
+      "length": 2,
+      "value": "26"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Models\/OSCAMRError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1083,
+      "length": 2,
+      "value": "22"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Models\/OSCAMRError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1110,
+      "length": 2,
+      "value": "29"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Interfaces\/Editor\/OSCAMRCropInternalView.swift",
+      "kind": "FloatLiteral",
+      "offset": 549,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Interfaces\/Editor\/OSCAMRCropInternalView.swift",
+      "kind": "FloatLiteral",
+      "offset": 756,
+      "length": 3,
+      "value": "0.6"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Interfaces\/OSCAMRPlayerBehaviour.swift",
+      "kind": "StringLiteral",
+      "offset": 26,
+      "length": 21,
+      "value": "\"OSCameraLib.OSCAMRPlayerBehaviour\""
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Interfaces\/OSCAMRPlayerBehaviour.swift",
+      "kind": "StringLiteral",
+      "offset": 1676,
+      "length": 31,
+      "value": "\"DismissAVPlayerViewController\""
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Interfaces\/Editor\/Model\/OSCAMRSideModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 255,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Interfaces\/Editor\/Model\/OSCAMRSideModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 596,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Interfaces\/Editor\/Model\/OSCAMRSideModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 611,
+      "length": 3,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Interfaces\/Editor\/Model\/OSCAMRSideModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 628,
+      "length": 5,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Interfaces\/Editor\/Model\/OSCAMRSideModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 596,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Interfaces\/Editor\/Model\/OSCAMRSideModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 611,
+      "length": 3,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Interfaces\/Editor\/Model\/OSCAMRSideModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 628,
+      "length": 5,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Interfaces\/Editor\/Model\/OSCAMRSideModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 596,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Interfaces\/Editor\/Model\/OSCAMRSideModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 611,
+      "length": 3,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Interfaces\/Editor\/Model\/OSCAMRSideModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 628,
+      "length": 5,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Interfaces\/Editor\/Model\/OSCAMRSideModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 775,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Interfaces\/Editor\/Model\/OSCAMRSideModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 790,
+      "length": 3,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Interfaces\/Editor\/Model\/OSCAMRSideModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 807,
+      "length": 6,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Interfaces\/Editor\/Model\/OSCAMRSideModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 775,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Interfaces\/Editor\/Model\/OSCAMRSideModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 790,
+      "length": 3,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Interfaces\/Editor\/Model\/OSCAMRSideModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 807,
+      "length": 6,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Interfaces\/Editor\/Model\/OSCAMRSideModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 775,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Interfaces\/Editor\/Model\/OSCAMRSideModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 790,
+      "length": 3,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/rcj\/Documents\/Projects\/OSCameraLib-iOS\/OSCameraLib\/Interfaces\/Editor\/Model\/OSCAMRSideModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 807,
+      "length": 6,
+      "value": "2"
+    }
+  ]
+}
