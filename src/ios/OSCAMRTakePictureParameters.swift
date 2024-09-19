@@ -44,7 +44,7 @@ func convertFlashMode(_ flashMode: Int?) -> AVCaptureDevice.FlashMode {
         return .on
     case -1:
         return .off
-    case 0, .nonea:
+    case 0, .none:
         return .auto
     default:
         return .auto
