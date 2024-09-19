@@ -39,7 +39,6 @@ class OSCamera: CDVPlugin {
             self.plugin?.captureMedia(with: options)
         }
     }
-
     @objc(editPicture:)
     func editPicture(command: CDVInvokedUrlCommand) {
         self.callbackId = command.callbackId
