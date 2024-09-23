@@ -39,8 +39,9 @@ class OSCamera: CDVPlugin {
             guard let self = self else { return }
             
             if let flashMode = parameters.flashMode {
+                print("Received flash mode: \(flashMode)")
                 self.setFlashMode(flashMode)
-            }
+            }else{print("no flash mode received")}
             
             self.plugin?.captureMedia(with: options)
         }
