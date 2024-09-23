@@ -31,7 +31,6 @@ extension OSCAMRPictureOptions {
             allowEdit: parameters.allowEdit, 
             returnMetadata: parameters.includeMetadata ?? false,
             latestVersion: parameters.latestVersion ?? false
-            latestVersion: parameters.latestVersion ?? false
         )
     }
 }
