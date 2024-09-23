@@ -1,5 +1,6 @@
 import OSCameraLib
 import OSCommonPluginLib
+import AVFoundation
 
 @objc(OSCamera)
 class OSCamera: CDVPlugin {
@@ -26,6 +27,32 @@ class OSCamera: CDVPlugin {
               let parameters = try? JSONDecoder().decode(OSCAMRTakePictureParameters.self, from: parametersData)
         else { return self.callback(error: .takePictureIssue) }
 
+        if let flashMode = parameters.flashMode {
+            self.setFlashMode(flashMode)
+        }
+        
+    private func setFlashMode(_ flashMode: Int) {
+        guard let device = AVCaptureDevice.default(for: .video) else { return }
+        
+        if device.hasFlash && device.isFlashAvailable {
+            do {
+                try device.lockForConfiguration()
+                
+                switch flashMode {
+                case 1:
+                    device.flashMode = .on
+                case -1:
+                    device.flashMode = .off
+                default:
+                    device.flashMode = .auto
+                }
+                
+                device.unlockForConfiguration()
+            } catch {
+                print("Error setting flash mode: \(error)")
+            }
+        }
+    }
         // This 🔨 is required in order not to break Android's implementation
         if parameters.sourceType == 0 {
             self.chooseSinglePicture(allowEdit: parameters.allowEdit)
