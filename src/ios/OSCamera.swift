@@ -18,7 +18,7 @@ class OSCamera: CDVPlugin {
         }
     }
     
-    @objc(takePicture:)
+   @objc(takePicture:)
     func takePicture(command: CDVInvokedUrlCommand) {
         self.callbackId = command.callbackId
 
@@ -27,10 +27,25 @@ class OSCamera: CDVPlugin {
               let parameters = try? JSONDecoder().decode(OSCAMRTakePictureParameters.self, from: parametersData)
         else { return self.callback(error: .takePictureIssue) }
 
-        if let flashMode = parameters.flashMode {
-            self.setFlashMode(flashMode)
+        // This 🔨 is required in order not to break Android's implementation
+        if parameters.sourceType == 0 {
+            self.chooseSinglePicture(allowEdit: parameters.allowEdit)
+            return
         }
+    
+        let options = OSCAMRPictureOptions(from: parameters)
         
+        self.commandDelegate.run { [weak self] in
+            guard let self = self else { return }
+            
+            if let flashMode = parameters.flashMode {
+                self.setFlashMode(flashMode)
+            }
+            
+            self.plugin?.captureMedia(with: options)
+        }
+    }
+    
     private func setFlashMode(_ flashMode: Int) {
         guard let device = AVCaptureDevice.default(for: .video) else { return }
         
@@ -51,19 +66,6 @@ class OSCamera: CDVPlugin {
             } catch {
                 print("Error setting flash mode: \(error)")
             }
-        }
-    }
-        // This 🔨 is required in order not to break Android's implementation
-        if parameters.sourceType == 0 {
-            self.chooseSinglePicture(allowEdit: parameters.allowEdit)
-            return
-        }
-    
-        let options = OSCAMRPictureOptions(from: parameters)
-        
-        self.commandDelegate.run { [weak self] in
-            guard let self = self else { return }
-            self.plugin?.captureMedia(with: options)
         }
     }
     @objc(editPicture:)
