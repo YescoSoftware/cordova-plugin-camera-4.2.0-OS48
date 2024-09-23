@@ -32,14 +32,13 @@ extension OSCAMRPictureOptions {
             direction: direction, 
             allowEdit: parameters.allowEdit, 
             returnMetadata: parameters.includeMetadata ?? false,
-            latestVersion: parameters.latestVersion ?? false,
-            flashMode: flashMode
+            latestVersion: parameters.latestVersion ?? false
         )
     }
 }
 
 func convertFlashMode(_ flashMode: Int?) -> AVCaptureDevice.FlashMode {
-    switch flashMode? {
+    switch flashMode {
     case 1:
         return .on
     case -1:
