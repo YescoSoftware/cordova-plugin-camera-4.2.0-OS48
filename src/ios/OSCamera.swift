@@ -37,9 +37,11 @@ class OSCamera: CDVPlugin {
         self.commandDelegate.run { [weak self] in
             guard let self = self else { return }
             
-            if let flashMode = parameters.flashMode {   
-                self.setFlashMode(flashMode)
+              if let pickerController = self.viewController as? UIImagePickerController {
+                if let flashMode = parameters.flashMode {
+                    self.setFlashMode(flashMode, for: pickerController)
             }
+        }
             
             self.plugin?.captureMedia(with: options)
         }
