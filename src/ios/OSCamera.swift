@@ -1,6 +1,5 @@
 import OSCameraLib
 import OSCommonPluginLib
-import AVFoundation
 
 @objc(OSCamera)
 class OSCamera: CDVPlugin {
@@ -38,37 +37,27 @@ class OSCamera: CDVPlugin {
         self.commandDelegate.run { [weak self] in
             guard let self = self else { return }
             
-            if let flashMode = parameters.flashMode {
-                print("Received flash mode: \(flashMode)")
+            if let flashMode = parameters.flashMode {   
                 self.setFlashMode(flashMode)
-            }else{print("no flash mode received")}
+            }
             
             self.plugin?.captureMedia(with: options)
         }
     }
     
-    private func setFlashMode(_ flashMode: Int) {
-        guard let device = AVCaptureDevice.default(for: .video) else { return }
-        
-        if device.hasFlash && device.isFlashAvailable {
-            do {
-                try device.lockForConfiguration()
-                
-                switch flashMode {
-                case 1:
-                    device.flashMode = .on
-                case -1:
-                    device.flashMode = .off
-                default:
-                    device.flashMode = .auto
-                }
-                
-                device.unlockForConfiguration()
-            } catch {
-                print("Error setting flash mode: \(error)")
+        private func setFlashMode(_ flashMode: Int, for pickerController: UIImagePickerController) {
+            guard UIImagePickerController.isSourceTypeAvailable(.camera) else { return }
+            
+            switch flashMode {
+            case 1:
+                pickerController.cameraFlashMode = .on
+            case -1:
+                pickerController.cameraFlashMode = .off
+            default:
+                pickerController.cameraFlashMode = .auto
             }
         }
-    }
+
     @objc(editPicture:)
     func editPicture(command: CDVInvokedUrlCommand) {
         self.callbackId = command.callbackId
